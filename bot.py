@@ -4,7 +4,7 @@ import random
 help='/help - напечатать справку о программе\n /add - добавить задачу\n /show - показать список задач'
 tasks={}
 RANDOM=["позавтракать", "пообедать", "поужинать", "погулять", "потренироваться"]
-token='6149954792:AAEhr6DGPa2JEnzfbAU1xeqBrJhJVfdjSjo'
+token='insert your telegram bot token here' #here. you is supposed to write your telegram bor token
 bot = telebot.TeleBot(token)
 flags = {'flagadd': False, 'flagshow': False}
 categories={"Работа":[], "Домашние дела":[], "Прочее":[]}
